@@ -11,7 +11,7 @@ const styles: CSSProperties = {
     padding: '0px 20px'
 }
 
-const origin = ( typeof window === undefined ) ? '' : window.location.origin;
+const origin = ( typeof window == undefined ) ? '' : window.location.origin;
 
 export const Layout: FC<PropsWithChildren> = ({ children, title }) => {
   
